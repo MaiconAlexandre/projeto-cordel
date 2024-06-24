@@ -1,24 +1,100 @@
 @charset "UTF-8";
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400; 700; 900&family=Sriracha&display=swap');
+
+
+* {
     margin: 0;
+    padding: 0;
+    font-family: "Sriracha", cursiva;
+}
+
+p {
+    font-size: 3vw;
+    margin-left: 30px;
 }
 
 header {
-    min-height: 30px;
-    padding: 40px 0 20px 0;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 30px;    
+    padding: 30px 0 30px 0;
 }
 
-article#l1{
-    font-weight: bolder;
-    font-size: 8vh;
-    margin-left: 40px;
+header > h1 {
+    font-family:  "Passion One", "sans-serif";
+    font-size: 7vw;
+    font-variant: small-caps;
+    padding: 30px 0 30px 0;
+    font-weight: bold;
 }
 
+header > p {
+    font-size: 1vw;;
+}
 
+article {
+    padding-top: 50px;
+}
+
+div#paralax {
+    padding-top: 120px;
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+ div#paralax > p {
+    font-size: 3vw;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 35vw;
+ }
+
+ div#paralax2 {
+    padding-top: 120px;
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+ }
+
+ div#paralax2 > p {
+    font-size: 7.5vh;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 45vw;
+    text-shadow: 1px 1px 2px black;
+ }
+
+ section.normal {
+    margin-bottom: 10vh;
+ }
+
+ footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+
+ footer > p {
+    font-size: 20px;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+    
+ }
 
