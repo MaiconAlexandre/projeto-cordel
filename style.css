@@ -11,7 +11,7 @@
 }
 
 p {
-    font-size: 3vw;
+    font-size: 90px;
     margin-left: 30px;
 }
 
@@ -24,14 +24,14 @@ header {
 
 header > h1 {
     font-family:  "Passion One", "sans-serif";
-    font-size: 7vw;
+    font-size: 90px;
     font-variant: small-caps;
     padding: 30px 0 30px 0;
     font-weight: bold;
 }
 
 header > p {
-    font-size: 1vw;;
+    font-size: 20px;
 }
 
 article {
@@ -50,7 +50,7 @@ div#paralax {
     color: white;
 }
  div#paralax > p {
-    font-size: 3vw;
+    font-size: 50px;
     background-color: rgba(0, 0, 0, 0.438);
     width: 35vw;
  }
@@ -68,7 +68,7 @@ div#paralax {
  }
 
  div#paralax2 > p {
-    font-size: 7.5vh;
+    font-size: 50px;
     background-color: rgba(0, 0, 0, 0.438);
     width: 45vw;
     text-shadow: 1px 1px 2px black;
